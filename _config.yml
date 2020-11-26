@@ -4,3 +4,5 @@ plugins:
 
 compress_images:
   images_path: "img/**/*.{gif,png,jpg,jpeg,svg}"
+
+exclude: [ _compress_images_cache.yml ]
