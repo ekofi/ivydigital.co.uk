@@ -59,7 +59,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 50px 0;
+    padding: 35px 0;
   }
 }
 
@@ -70,7 +70,6 @@ section h3.section-subheading {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
 }
 
 .btn-primary {
@@ -173,6 +172,12 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+  #navButton {
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
   }
 }
 
@@ -616,7 +621,7 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 15px;
 }
 
 section#contact .form-group input.form-control {
@@ -624,7 +629,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-  height: 248px;
+  height: 217px;
 }
 
 section#contact .form-control:focus {
@@ -701,4 +706,47 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #services > div > div.col-lg-12.text-center > a {
   margin-top: 35px;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #fed136;
+}
+
+blockquote:after {
+    position: absolute;
+    float:right;
+    font-size:80px;
+    line-height: 1;
+    right: 20px;
+    bottom: -40px;
+    color: #fed136;
+    content: "\201D";
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
 }
