@@ -583,6 +583,12 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.valign-image {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .team-member {
   margin-bottom: 0px;
   text-align: center;
