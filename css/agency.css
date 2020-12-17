@@ -740,7 +740,7 @@ blockquote:after {
     float:right;
     font-size:80px;
     line-height: 1;
-    right: 20px;
+    right: 50px;
     bottom: -40px;
     color: #fed136;
     content: "\201D";
